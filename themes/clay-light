@@ -1,0 +1,65 @@
+# Clay Light
+# 暗色的镜像而非反相：文字档位与底色的对比度和暗色相同，表面朝深处叠。
+# Clay 保持品牌色 #d97757 不变。需要 Ghostty 1.3+（search-* 键）。
+
+# 终端自身：正文 fg 在 bg 上
+background = #f6f6f6
+foreground = #333333
+
+# 光标：Clay 块，光标下文字用底色
+cursor-color = #d97757
+cursor-text = #f6f6f6
+
+# 选区：bright 在 selection 上
+selection-background = #c6c6c6
+selection-foreground = #202020
+
+# 搜索匹配：bright 在 search 上，比选区离底色更远
+search-background = #b7b7b7
+search-foreground = #202020
+
+# 当前搜索匹配：底色在 Clay 上
+search-selected-background = #d97757
+search-selected-foreground = #f6f6f6
+
+# 分屏：分割线用 border；未聚焦分屏向底色褪去
+split-divider-color = #d5d5d5
+unfocused-split-fill = #f6f6f6
+
+# 标题栏（仅 window-theme = ghostty 时生效）：sidebar 退后，次要界面文字
+window-titlebar-background = #f8f8f8
+window-titlebar-foreground = #4b4b4b
+
+# ANSI 16 色：ANSI 名是绝对颜色，black 比 white 深
+# 0 black          fg
+palette = 0=#333333
+# 1 red            clay
+palette = 1=#d97757
+# 2 green          bright
+palette = 2=#202020
+# 3 yellow         secondary
+palette = 3=#4b4b4b
+# 4 blue           secondary
+palette = 4=#4b4b4b
+# 5 magenta        muted
+palette = 5=#616161
+# 6 cyan           secondary
+palette = 6=#4b4b4b
+# 7 white          subtle
+palette = 7=#868686
+# 8 bright black   comment
+palette = 8=#737373
+# 9 bright red     clay
+palette = 9=#d97757
+# 10 bright green  bright
+palette = 10=#202020
+# 11 bright yellow fg
+palette = 11=#333333
+# 12 bright blue   fg
+palette = 12=#333333
+# 13 bright magenta secondary
+palette = 13=#4b4b4b
+# 14 bright cyan   fg
+palette = 14=#333333
+# 15 bright white  gutter
+palette = 15=#9d9d9d
