@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="1016" viewBox="0 0 888 1016" font-family="&#x27;JetBrains Mono&#x27;, &#x27;SF Mono&#x27;, Menlo, Consolas, &#x27;DejaVu Sans Mono&#x27;, monospace" font-size="14">
+<title>clay-light</title>
+<clipPath id="window"><rect width="888" height="1016" rx="10"/></clipPath>
+<g clip-path="url(#window)">
+<rect width="888" height="1016" fill="#f6f6f6"/>
+<rect width="888" height="36" fill="#f8f8f8"/>
+<line x1="0" y1="35.5" x2="888" y2="35.5" stroke="#d5d5d5"/>
+<text x="444.0" y="18.0" dominant-baseline="central" text-anchor="middle" fill="#4b4b4b">clay-light</text>
+<text x="20.0" y="66.0" fill="#333333" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">ANSI 16</text>
+<rect x="20.0" y="76" width="84.0" height="20" fill="#333333"/>
+<rect x="112.4" y="76" width="84.0" height="20" fill="#d97757"/>
+<rect x="204.8" y="76" width="84.0" height="20" fill="#202020"/>
+<rect x="297.2" y="76" width="84.0" height="20" fill="#4b4b4b"/>
+<rect x="389.6" y="76" width="84.0" height="20" fill="#4b4b4b"/>
+<rect x="482.0" y="76" width="84.0" height="20" fill="#616161"/>
+<rect x="574.4" y="76" width="84.0" height="20" fill="#4b4b4b"/>
+<rect x="666.8" y="76" width="84.0" height="20" fill="#868686"/>
+<text x="20.0" y="106.0" fill="#333333" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">0 black    </text>
+<text x="112.4" y="106.0" fill="#d97757" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">1 red      </text>
+<text x="204.8" y="106.0" fill="#202020" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2 green    </text>
+<text x="297.2" y="106.0" fill="#4b4b4b" textLength="184.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">3 yellow   4 blue     </text>
+<text x="482.0" y="106.0" fill="#616161" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">5 magenta  </text>
+<text x="574.4" y="106.0" fill="#4b4b4b" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">6 cyan     </text>
+<text x="666.8" y="106.0" fill="#868686" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">7 white    </text>
+<rect x="20.0" y="116" width="84.0" height="20" fill="#737373"/>
+<rect x="112.4" y="116" width="84.0" height="20" fill="#d97757"/>
+<rect x="204.8" y="116" width="84.0" height="20" fill="#202020"/>
+<rect x="297.2" y="116" width="84.0" height="20" fill="#333333"/>
+<rect x="389.6" y="116" width="84.0" height="20" fill="#333333"/>
+<rect x="482.0" y="116" width="84.0" height="20" fill="#4b4b4b"/>
+<rect x="574.4" y="116" width="84.0" height="20" fill="#333333"/>
+<rect x="666.8" y="116" width="84.0" height="20" fill="#9d9d9d"/>
+<text x="20.0" y="146.0" fill="#737373" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">8 black    </text>
+<text x="112.4" y="146.0" fill="#d97757" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">9 red      </text>
+<text x="204.8" y="146.0" fill="#202020" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">10 green   </text>
+<text x="297.2" y="146.0" fill="#333333" textLength="184.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">11 yellow  12 blue    </text>
+<text x="482.0" y="146.0" fill="#4b4b4b" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">13 magenta </text>
+<text x="574.4" y="146.0" fill="#333333" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">14 cyan    </text>
+<text x="666.8" y="146.0" fill="#9d9d9d" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">15 white   </text>
+<text x="20.0" y="186.0" fill="#333333" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">Text</text>
+<text x="20.0" y="206.0" fill="#333333" textLength="75.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">default  </text>
+<text x="95.6" y="206.0" fill="#333333" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">bold</text>
+<text x="146.0" y="206.0" fill="#949494" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">dim</text>
+<text x="188.0" y="206.0" fill="#333333" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-style="italic" dominant-baseline="central" xml:space="preserve">italic</text>
+<text x="255.2" y="206.0" fill="#333333" textLength="75.6" lengthAdjust="spacingAndGlyphs" text-decoration="underline" dominant-baseline="central" xml:space="preserve">underline</text>
+<rect x="347.6" y="196" width="58.8" height="20" fill="#333333"/>
+<text x="347.6" y="206.0" fill="#f6f6f6" textLength="58.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">reverse</text>
+<text x="20.0" y="246.0" fill="#333333" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">Prompt</text>
+<text x="20.0" y="266.0" fill="#4b4b4b" textLength="201.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">~/Developer/clay.ghostty</text>
+<text x="221.6" y="266.0" fill="#333333" textLength="33.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> on </text>
+<text x="255.2" y="266.0" fill="#616161" textLength="58.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> master</text>
+<text x="322.4" y="266.0" fill="#d97757" textLength="42.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">?1 !2</text>
+<text x="20.0" y="286.0" fill="#202020" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">❯</text>
+<text x="28.4" y="286.0" fill="#333333" textLength="159.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> git status --short</text>
+<text x="20.0" y="306.0" fill="#202020" textLength="8.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">M</text>
+<text x="28.4" y="306.0" fill="#333333" textLength="151.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">  themes/clay-dark</text>
+<text x="28.4" y="326.0" fill="#d97757" textLength="8.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">M</text>
+<text x="36.8" y="326.0" fill="#333333" textLength="151.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> themes/clay-light</text>
+<text x="20.0" y="346.0" fill="#d97757" textLength="16.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">??</text>
+<text x="36.8" y="346.0" fill="#333333" textLength="159.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> scripts/preview.sh</text>
+<text x="20.0" y="366.0" fill="#d97757" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">❯</text>
+<text x="28.4" y="366.0" fill="#333333" textLength="50.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> false</text>
+<text x="20.0" y="406.0" fill="#333333" textLength="67.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">git diff</text>
+<text x="20.0" y="426.0" fill="#333333" textLength="403.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">diff --git a/themes/clay-dark b/themes/clay-dark</text>
+<text x="20.0" y="446.0" fill="#333333" textLength="243.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">index 4ed61d8..53ba1c6 100644</text>
+<text x="20.0" y="466.0" fill="#333333" textLength="184.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">--- a/themes/clay-dark</text>
+<text x="20.0" y="486.0" fill="#333333" textLength="184.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">+++ b/themes/clay-dark</text>
+<text x="20.0" y="506.0" fill="#4b4b4b" textLength="142.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">@@ -14,4 +14,4 @@</text>
+<text x="162.8" y="506.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> # </text>
+<text x="188.0" y="506.0" fill="#333333" textLength="50.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">选区：</text>
+<text x="238.4" y="506.0" fill="#333333" textLength="58.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">bright </text>
+<text x="297.2" y="506.0" fill="#333333" textLength="16.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">在</text>
+<rect x="322.4" y="496" width="75.6" height="20" fill="#b7b7b7"/>
+<text x="322.4" y="506.0" fill="#202020" textLength="75.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">selection</text>
+<text x="406.4" y="506.0" fill="#333333" textLength="16.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">上</text>
+<rect x="28.4" y="516" width="75.6" height="20" fill="#b7b7b7"/>
+<text x="28.4" y="526.0" fill="#202020" textLength="75.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">selection</text>
+<text x="104.0" y="526.0" fill="#333333" textLength="176.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">-background = #363636</text>
+<text x="20.0" y="546.0" fill="#d97757" textLength="8.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">-</text>
+<rect x="28.4" y="536" width="75.6" height="20" fill="#b7b7b7"/>
+<text x="28.4" y="546.0" fill="#202020" textLength="75.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">selection</text>
+<text x="104.0" y="546.0" fill="#d97757" textLength="176.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">-foreground = #cccccc</text>
+<text x="20.0" y="566.0" fill="#202020" textLength="8.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">+</text>
+<rect x="28.4" y="556" width="75.6" height="20" fill="#d97757"/>
+<text x="28.4" y="566.0" fill="#f6f6f6" textLength="75.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">selection</text>
+<text x="104.0" y="566.0" fill="#202020" textLength="176.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">-foreground = #e6e6e6</text>
+<text x="20.0" y="606.0" fill="#333333" textLength="84.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">ls --color</text>
+<text x="20.0" y="626.0" fill="#4b4b4b" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">design</text>
+<text x="70.4" y="626.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">/  </text>
+<text x="95.6" y="626.0" fill="#4b4b4b" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">scripts</text>
+<text x="154.4" y="626.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">/  </text>
+<text x="179.6" y="626.0" fill="#4b4b4b" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">tests</text>
+<text x="221.6" y="626.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">/  </text>
+<text x="246.8" y="626.0" fill="#4b4b4b" textLength="50.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">themes</text>
+<text x="297.2" y="626.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">/  </text>
+<text x="322.4" y="626.0" fill="#202020" textLength="84.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">preview.sh</text>
+<text x="406.4" y="626.0" fill="#333333" textLength="25.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">*  </text>
+<text x="431.6" y="626.0" fill="#4b4b4b" textLength="117.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">clay -&gt; themes</text>
+<text x="549.2" y="626.0" fill="#333333" textLength="201.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">@  Makefile  README.md  </text>
+<text x="750.8" y="626.0" fill="#d97757" textLength="117.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">archive.tar.gz</text>
+<text x="20.0" y="666.0" fill="#333333" textLength="67.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">Compiler</text>
+<text x="20.0" y="686.0" fill="#d97757" textLength="100.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">error[E0308]</text>
+<text x="120.8" y="686.0" fill="#333333" textLength="151.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">: mismatched types</text>
+<text x="36.8" y="706.0" fill="#4b4b4b" textLength="25.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">--&gt;</text>
+<text x="62.0" y="706.0" fill="#333333" textLength="142.8" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> src/main.rs:4:18</text>
+<text x="45.2" y="726.0" fill="#4b4b4b" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">|</text>
+<text x="20.0" y="746.0" fill="#4b4b4b" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">4</text>
+<text x="45.2" y="746.0" fill="#4b4b4b" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">|</text>
+<text x="53.6" y="746.0" fill="#333333" textLength="210.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">     let n: u32 = &quot;clay&quot;;</text>
+<text x="45.2" y="766.0" fill="#4b4b4b" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">|</text>
+<text x="204.8" y="766.0" fill="#d97757" textLength="294.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">^^^^^^ expected `u32`, found `&amp;str`</text>
+<text x="20.0" y="786.0" fill="#4b4b4b" textLength="58.8" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">warning</text>
+<text x="78.8" y="786.0" fill="#333333" textLength="235.2" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">: unused variable: `palette`</text>
+<text x="20.0" y="806.0" fill="#4b4b4b" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">note</text>
+<text x="53.6" y="806.0" fill="#333333" textLength="361.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">: `#[warn(unused_variables)]` on by default</text>
+<text x="20.0" y="846.0" fill="#333333" textLength="33.6" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">Logs</text>
+<text x="20.0" y="866.0" fill="#737373" textLength="168.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2026-11-12T10:23:01Z</text>
+<text x="196.4" y="866.0" fill="#d97757" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">ERROR</text>
+<text x="238.4" y="866.0" fill="#333333" textLength="218.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> request failed status=500</text>
+<text x="20.0" y="886.0" fill="#737373" textLength="168.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2026-11-12T10:23:02Z</text>
+<text x="196.4" y="886.0" fill="#4b4b4b" textLength="42.0" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve"> WARN</text>
+<text x="238.4" y="886.0" fill="#333333" textLength="126.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> retrying in 2s</text>
+<text x="20.0" y="906.0" fill="#737373" textLength="168.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2026-11-12T10:23:04Z</text>
+<text x="196.4" y="906.0" fill="#202020" textLength="42.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> INFO</text>
+<rect x="246.8" y="896" width="151.2" height="20" fill="#c6c6c6"/>
+<text x="246.8" y="906.0" fill="#202020" textLength="151.2" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">listening on :8080</text>
+<text x="20.0" y="926.0" fill="#737373" textLength="168.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2026-11-12T10:23:05Z</text>
+<text x="196.4" y="926.0" fill="#4b4b4b" textLength="42.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">DEBUG</text>
+<text x="238.4" y="926.0" fill="#333333" textLength="159.6" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve"> cache hit key=clay</text>
+<text x="20.0" y="946.0" fill="#737373" textLength="168.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">2026-11-12T10:23:05Z</text>
+<text x="196.4" y="946.0" fill="#616161" textLength="42.0" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">TRACE</text>
+<text x="246.8" y="946.0" fill="#737373" textLength="92.4" lengthAdjust="spacingAndGlyphs" dominant-baseline="central" xml:space="preserve">span closed</text>
+<text x="20.0" y="986.0" fill="#202020" textLength="8.4" lengthAdjust="spacingAndGlyphs" font-weight="bold" dominant-baseline="central" xml:space="preserve">❯</text>
+<rect x="36.8" y="976" width="8.4" height="20" fill="#d97757"/>
+</g>
+</svg>
