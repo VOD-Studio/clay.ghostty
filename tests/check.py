@@ -15,6 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 THEMES = {"dark": ROOT / "themes" / "clay-dark", "light": ROOT / "themes" / "clay-light"}
+README = ROOT / "README.md"
 
 CLAY = "#d97757"
 # Slots where Clay marks focus. Clay must not appear anywhere else.
@@ -49,6 +50,7 @@ MIRRORED_SURFACES = [
     "window-titlebar-background",
 ]
 HEX = re.compile(r"^#[0-9a-f]{6}$")
+CELL_HEX = re.compile(r"`(#[0-9a-f]{6})`")
 
 results = {"pass": 0, "fail": 0, "skip": 0}
 
@@ -234,6 +236,35 @@ def check_mirror(dark: dict[str, str], light: dict[str, str]) -> None:
         )
 
 
+def readme_colors() -> dict[str, tuple[str, str]]:
+    """Map theme slots to the (dark, light) colors the README tables document."""
+    documented: dict[str, tuple[str, str]] = {}
+    for line in README.read_text().splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) != 4:
+            continue
+        first, dark, light = cells[0], CELL_HEX.findall(cells[2]), CELL_HEX.findall(cells[3])
+        if not dark or not light:
+            continue
+        slot = f"palette {first}" if first.isdigit() else first.strip("`")
+        documented[slot] = (dark[-1], light[-1])
+    return documented
+
+
+def check_readme(dark: dict[str, str], light: dict[str, str]) -> None:
+    documented = readme_colors()
+    undocumented = sorted(REQUIRED - documented.keys())
+    check("README documents every slot", not undocumented, f"missing {undocumented}")
+    stale = [
+        f"{slot}: README {doc}, themes {(dark.get(slot), light.get(slot))}"
+        for slot, doc in sorted(documented.items())
+        if doc != (dark.get(slot), light.get(slot))
+    ]
+    check("README colors match the themes", not stale, "; ".join(stale))
+
+
 def check_ghostty() -> None:
     ghostty = shutil.which("ghostty")
     if not ghostty:
@@ -263,6 +294,7 @@ def main() -> int:
         check_variant(variant, parsed[variant])
     if len(parsed) == len(THEMES):
         check_mirror(parsed["dark"], parsed["light"])
+        check_readme(parsed["dark"], parsed["light"])
     check_ghostty()
 
     print(f"\n{results['pass']} passed, {results['fail']} failed, {results['skip']} skipped")

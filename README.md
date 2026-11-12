@@ -94,7 +94,7 @@ ANSI 颜色名是绝对颜色：两个变体中 black 都比 white 深。彩色�
 
 ## 开发
 
-- `make test`：按设计规则检查两个主题。检查内容包括：只用中性灰和 Clay；Clay 只出现在焦点槽位；正文对比度 ≥ 7、注释 ≥ 4；red/green 与正文不同、black 比 white 深；搜索比选区离底色更远；两个变体的文字对比度与表面距离互为镜像。找到 `ghostty` 时还会运行 `ghostty +validate-config`，找不到则记为 SKIP。
+- `make test`：按设计规则检查两个主题。检查内容包括：只用中性灰和 Clay；Clay 只出现在焦点槽位；正文对比度 ≥ 7、注释 ≥ 4；red/green 与正文不同、black 比 white 深；搜索比选区离底色更远；两个变体的文字对比度与表面距离互为镜像；README 的两张配色表与主题文件一致。找到 `ghostty` 时还会运行 `ghostty +validate-config`，找不到则记为 SKIP。
 - `make preview`：在当前终端输出色板和常见输出（提示符、git diff、ls、编译错误、日志），用于在 Ghostty 中目测。
 - `make images`：将 `make preview` 的输出按主题渲染为 `assets/*.svg`，图中额外画出标题栏、选区、搜索匹配和光标。
 
