@@ -18,15 +18,14 @@ section() { printf '\n%s%s%s\n' "$bold" "$1" "$reset"; }
 
 section "ANSI 16"
 for row in 0 1; do
+  # Normal colors use SGR 30-37/40-47, bright colors 90-97/100-107.
+  base=$((row == 0 ? 30 : 90))
   for i in 0 1 2 3 4 5 6 7; do
-    idx=$((row * 8 + i))
-    if ((row == 0)); then code=$((40 + i)); else code=$((100 + i)); fi
-    printf '%s[%sm  %2d  %s ' "$esc" "$code" "$idx" "$reset"
+    printf '%s[%sm          %s ' "$esc" "$((base + 10 + i))" "$reset"
   done
   printf '\n'
   for i in 0 1 2 3 4 5 6 7; do
-    if ((row == 0)); then code=$((30 + i)); else code=$((90 + i)); fi
-    printf '%s%-7s%s' "$(fg "$code")" "${names[i]}" "$reset"
+    printf '%s%-11s%s' "$(fg "$((base + i))")" "$((row * 8 + i)) ${names[i]}" "$reset"
   done
   printf '\n'
 done
